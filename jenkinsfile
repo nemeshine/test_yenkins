@@ -13,6 +13,7 @@ node {
     }
 
     // Testing
+    //halo
     docker.image('ubuntu').inside('-u root') {
         sh 'echo "Ini adalah test"'
     }
